@@ -75,18 +75,15 @@ Confirm ~/.claude/skills/meta-ads/SKILL.md exists.
 
 Step 2 - Install the official Meta CLI:
 
-Tell me the official Meta CLI install instructions live at:
-  https://developers.facebook.com/docs/marketing-apis/ads-cli/get-started
+The official Meta CLI install docs are at:
+  https://developers.facebook.com/documentation/ads-commerce/ads-ai-connectors/ads-cli/setup/get-started
 
-The current install is a one-line installer (verify the latest at the URL above, since Meta updates this):
-
-  # macOS / Linux:
-  curl -sSL https://developers.facebook.com/tools/ads-cli/install.sh | bash
+Open that page and follow Meta's CURRENT install instructions for my OS (Meta updates the installer regularly, so always use the version on the docs page rather than a cached command).
 
 After install, verify:
   meta --version
 
-If `meta` is not on my PATH, add ~/.local/bin/meta to my PATH (the installer typically puts it there).
+If `meta` is not on my PATH, add the installer's bin directory (typically `~/.local/bin/` or `/usr/local/bin/`) to my PATH.
 
 Step 3 - Authenticate the CLI:
 
